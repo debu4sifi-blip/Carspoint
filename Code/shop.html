@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carspoint - Shop</title>
+  <link rel="stylesheet" href="styles/shop.css">
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <div class="logo">Carspoint</div>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="shop.html" class="active">Shop</a></li>
+      <li><a href="service.html">Service</a></li>
+      <li><a href="newcars.html">New Cars</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="shop-header">
+    <h1>Our Car Collection</h1>
+    <p>Find your dream car at Carspoint!</p>
+  </header>
+
+  <!-- Search & Filter -->
+  <section class="search-filter">
+    <input type="text" placeholder="Search cars by name...">
+    <select>
+      <option value="">Filter by Brand</option>
+      <option value="BMW">BMW</option>
+      <option value="Audi">Audi</option>
+      <option value="Mercedes">Mercedes</option>
+      <option value="Tesla">Tesla</option>
+    </select>
+    <select>
+      <option value="">Sort by Price</option>
+      <option value="low-high">Low to High</option>
+      <option value="high-low">High to Low</option>
+    </select>
+    <button class="btn">Search</button>
+  </section>
+
+  <!-- Shop Grid -->
+  <section class="shop-container">
+    <div class="car-card">
+      <img src="images/BMW X5.jpg" alt="BMW X5">
+      <h2>BMW X5</h2>
+      <p class="price">$65,000</p>
+      <p>Luxury SUV • 300 HP • Automatic</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="car-card">
+      <img src="images/Audi A6.jpg" alt="Audi A6">
+      <h2>Audi A6</h2>
+      <p class="price">$58,000</p>
+      <p>Premium Sedan • 250 HP • Hybrid</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="car-card">
+      <img src="images/Mercedes C-Class.jpg" alt="Mercedes C-Class">
+      <h2>Mercedes C-Class</h2>
+      <p class="price">$55,000</p>
+      <p>Elegant Sedan • 220 HP • Petrol</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="car-card">
+      <img src="images/Tesla Model 3.jpg" alt="Tesla Model 3">
+      <h2>Tesla Model 3</h2>
+      <p class="price">$50,000</p>
+      <p>Electric Sedan • 350 HP • AutoPilot</p>
+      <button>Buy Now</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Carspoint. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
